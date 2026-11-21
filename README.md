@@ -25,8 +25,12 @@ a [Releases](https://github.com/mignac2/autopark/releases) oldalon.
    - Kapcsold be: **Engedélyezés ebből a forrásból**.
    - Lépj vissza.
 5. Koppints a **Telepítés** gombra.
-6. Ha a Google Play Protect rákérdez, válaszd a **Telepítés mindenképp** lehetőséget (vagy *Részletek* →
-   *Telepítés mindenképp*). Ez azért van, mert az app nem a Play áruházból jön.
+6. Ha a Google Play Protect figyelmeztet („Play Protect hasn't seen this app before”, vagy akár
+   **„Harmful app blocked”**), a zöld **OK** gombot NE nyomd meg, mert az megszakítja a telepítést. Helyette
+   koppints az alatta lévő **Install anyway** / **Telepítés mindenképp** feliratra (néha előbb a *Részletek*-re
+   kell koppintani). A figyelmeztetés azért jelenik meg, mert az app nem a Play áruházból jön, és SMS-t küld a
+   parkolás indításához/leállításához. Az app nem küld SMS-t, amíg az „Éles küldés” kapcsolót be nem
+   kapcsolod, és meg nem adod hozzá az SMS-engedélyt.
 7. Nyisd meg az AutoParkot, és add meg a kért engedélyeket.
 
 ## Frissítés
@@ -35,12 +39,12 @@ Nem kell ezt az oldalt figyelned:
 
 - Az app naponta egyszer megnézi, hogy van-e új verzió. Ha van, egy **„Új AutoPark verzió: …”** értesítést kapsz
   (ez csak a telefonon jelenik meg, az órán nem).
-- Koppints az értesítésre, majd a **Letöltés és telepítés** gombra.
-- Az első alkalommal az Android kérheti, hogy engedélyezd az AutoParknak az alkalmazástelepítést
-  (*ismeretlen források*). Az app odavisz a megfelelő beállításhoz: kapcsold be, majd lépj vissza.
-- Az app letölti az új verziót, ellenőrzi (ellenőrzőösszeggel), majd az Android megkérdezi, telepítse-e:
-  koppints a **Frissítés** gombra.
-- A beállításaid és a naplód megmaradnak.
+- Koppints az értesítésre, majd a **Letöltés** gombra. A böngésző letölti az új verziót innen, a GitHubról.
+- Nyisd meg a letöltött fájlt (értesítés vagy *Letöltések*), majd koppints a **Frissítés** gombra.
+  Ha a böngészőnek még nincs engedélye ismeretlen forrásból telepíteni, az Android odavisz a beállításhoz:
+  kapcsold be, majd lépj vissza.
+- Ha a Play Protect figyelmeztet, ugyanúgy az **Install anyway** / **Telepítés mindenképp** a teendő (ld. fent).
+- A beállításaid (rendszám, fejegység, kizárt helyek) és a naplód megmaradnak.
 
 **Kötelező frissítés** feliratot akkor látsz, ha a régi verzió már nem működik megbízhatóan. Ilyenkor
 frissíts, amint lehet.
