@@ -25,12 +25,11 @@ a [Releases](https://github.com/mignac2/autopark/releases) oldalon.
    - Kapcsold be: **Engedélyezés ebből a forrásból**.
    - Lépj vissza.
 5. Koppints a **Telepítés** gombra.
-6. Ha a Google Play Protect figyelmeztet („Play Protect hasn't seen this app before”, vagy akár
-   **„Harmful app blocked”**), a zöld **OK** gombot NE nyomd meg, mert az megszakítja a telepítést. Helyette
-   koppints az alatta lévő **Install anyway** / **Telepítés mindenképp** feliratra (néha előbb a *Részletek*-re
-   kell koppintani). A figyelmeztetés azért jelenik meg, mert az app nem a Play áruházból jön, és SMS-t küld a
-   parkolás indításához/leállításához. Az app nem küld SMS-t, amíg az „Éles küldés” kapcsolót be nem
-   kapcsolod, és meg nem adod hozzá az SMS-engedélyt.
+6. Egy friss verziónál a Google Play Protect kérheti, hogy szkennelje az appot (**„App scan recommended”** /
+   *„Play Protect hasn't seen this app before”*). Ilyenkor koppints a **Scan app** (Alkalmazás szkennelése)
+   gombra, várd meg az eredményt (*„This app looks safe”*), majd koppints az **Install** (Telepítés) gombra.
+   Ez azért van, mert az app nem a Play áruházból jön, és a Google még nem látta ezt a verziót.
+   Az app nem kér SMS-engedélyt: a parkolás-SMS-t mindig te küldöd el egy koppintással az üzenetküldőben.
 7. Nyisd meg az AutoParkot, és add meg a kért engedélyeket.
 
 ## Frissítés
@@ -43,7 +42,7 @@ Nem kell ezt az oldalt figyelned:
 - Nyisd meg a letöltött fájlt (értesítés vagy *Letöltések*), majd koppints a **Frissítés** gombra.
   Ha a böngészőnek még nincs engedélye ismeretlen forrásból telepíteni, az Android odavisz a beállításhoz:
   kapcsold be, majd lépj vissza.
-- Ha a Play Protect figyelmeztet, ugyanúgy az **Install anyway** / **Telepítés mindenképp** a teendő (ld. fent).
+- Ha a Play Protect szkennelést kér, ugyanúgy a **Scan app**, majd az **Install** a teendő (ld. fent).
 - A beállításaid (rendszám, fejegység, kizárt helyek) és a naplód megmaradnak.
 
 **Kötelező frissítés** feliratot akkor látsz, ha a régi verzió már nem működik megbízhatóan. Ilyenkor
@@ -59,7 +58,7 @@ A meglévő app fölé települ, nem kell előbb eltávolítani.
   (ezzel a naplója is törlődik), utána települ az új.
 - **Nem jön frissítési értesítés**: nézd meg, hogy az AutoPark értesítései engedélyezve vannak-e
   (Beállítások → Alkalmazások → AutoPark → Értesítések → „Frissítések”).
-- **A letöltés megszakadt**: koppints újra az értesítésre vagy a **Letöltés és telepítés** gombra.
+- **A letöltés megszakadt**: koppints újra az értesítésre, majd a **Letöltés** gombra.
 
 ## Biztonság
 
